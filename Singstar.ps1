@@ -17,8 +17,6 @@ $xml = @'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document [ <!ATTLIST xsl:stylesheet id ID #REQUIRED> ]>
 
-<document>
-
 '@
 
 $stylesheet = @'
@@ -37,7 +35,8 @@ $stylesheet = @'
       <th>Artist</th>
       <th>Song Title</th>
     </tr>
-    <xsl:for-each select="//Track">
+
+    <xsl:for-each select="document/Catalogue/Track">
     <tr>
       <td><xsl:value-of select="Format"/></td>
       <td><xsl:value-of select="Disc"/></td>
@@ -45,13 +44,16 @@ $stylesheet = @'
       <td><xsl:value-of select="SongTitle"/></td>
     </tr>
     </xsl:for-each>
+
   </table>
 
 </xsl:template>
 
 </xsl:stylesheet>
 
+<document>
 <Catalogue>
+
 '@
 
 $xml += $stylesheet
