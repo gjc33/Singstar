@@ -3,12 +3,14 @@
 $data = Import-Csv -Path $(Join-Path $Folderpath "Singstar.csv") -Delimiter ","
 
 $entryTemplate = @'
+
 <Track>
     <Format>$($_.Format)</Format>
     <Disc>$($_.Disc)</Disc>
     <Artist>$($_.Artist)</Artist>
     <SongTitle>$($_."Song Title")</SongTitle>
 </Track>
+
 '@
 
 $xml = @'
@@ -35,7 +37,7 @@ $stylesheet = @'
       <th>Artist</th>
       <th>Song Title</th>
     </tr>
-    <xsl:for-each select="//Catalogue/Track">
+    <xsl:for-each select="//Track">
     <tr>
       <td><xsl:value-of select="Format"/></td>
       <td><xsl:value-of select="Disc"/></td>
