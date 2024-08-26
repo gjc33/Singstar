@@ -1,4 +1,4 @@
-﻿$FolderPath = "S:\Singstar\"
+﻿$FolderPath = "C:\Users\garyc\Documents\GitHub\Singstar\"
 
 $data = Import-Csv -Path $(Join-Path $Folderpath "Singstar.csv") -Delimiter ","
 
@@ -13,7 +13,7 @@ $entryTemplate = @'
 
 $xml = @'
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="Singstar.xsl"?>
+<?xml-stylesheet type="text/xsl" href="./Singstar.xsl"?>
 <Catalogue>
 '@
 
@@ -23,4 +23,4 @@ $xml += $data | ForEach-Object {
 
 $xml += "</Catalogue>"
 
-$xml | Out-File $(Join-Path $FolderPath "Singstar.XML")
+$xml | Out-File $(Join-Path $FolderPath "index.html")
