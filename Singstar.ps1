@@ -15,7 +15,7 @@ $xml = @'
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
 <!DOCTYPE document [ <!ATTLIST xsl:stylesheet id ID #REQUIRED> ]>
-<Catalogue>
+
 '@
 
 $stylesheet = @'
@@ -49,6 +49,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 </xsl:template>
 
 </xsl:stylesheet>
+
+<Catalogue>
 '@
 
 $xml += $stylesheet
