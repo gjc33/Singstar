@@ -26,8 +26,7 @@ $stylesheet = @'
                     xmlns:fo="http://www.w3.org/1999/XSL/Format">
 
 <xsl:template match="/">
-  <html>
-  <body>
+
   <h2>Singstar Catalogue</h2>
   <table border="1">
     <tr bgcolor="#9acd32">
@@ -45,8 +44,7 @@ $stylesheet = @'
     </tr>
     </xsl:for-each>
   </table>
-  </body>
-  </html>
+
 </xsl:template>
 
 </xsl:stylesheet>
