@@ -36,7 +36,7 @@ $stylesheet = @'
       <th>Artist</th>
       <th>Song Title</th>
     </tr>
-    <xsl:for-each select="document/Catalog/Track">
+    <xsl:for-each select="document/Catalogue/Track">
     <tr>
       <td><xsl:value-of select="Format"/></td>
       <td><xsl:value-of select="Disc"/></td>
