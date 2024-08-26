@@ -2,66 +2,39 @@
 
 $data = Import-Csv -Path $(Join-Path $Folderpath "Singstar.csv") -Delimiter ","
 
+$html = @'
+<html>
+    <body>
+  <h2>Singstar Catalogue</h2>
+      <table border="1">
+        <tr bgcolor="#9acd32">
+          <th>Format</th>
+          <th>Disc</th>
+          <th>Artist</th>
+          <th>Song Title</th>
+        </tr>
+'@
+
 $entryTemplate = @'
 
-<Track>
-    <Format>$($_.Format)</Format>
-    <Disc>$($_.Disc)</Disc>
-    <Artist>$($_.Artist)</Artist>
-    <SongTitle>$($_."Song Title")</SongTitle>
-</Track>
+        <tr>
+            <td>$($_.Format)</td>
+            <td>$($_.Disc)</td>
+            <td>$($_.Artist)</td>
+            <td>$($_."Song Title")</td>
+        </tr>
 
 '@
 
-$xml = @'
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document [ <!ATTLIST xsl:stylesheet id ID #REQUIRED> ]>
-
-'@
-
-$stylesheet = @'
-<xsl:stylesheet id="style1"
-                    version="1.0"
-                    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                    xmlns:fo="http://www.w3.org/1999/XSL/Format">
-
-<xsl:template match="/">
-
-  <h2>Singstar Catalogue</h2>
-  <table border="1">
-    <tr bgcolor="#9acd32">
-      <th>Format</th>
-      <th>Disc</th>
-      <th>Artist</th>
-      <th>Song Title</th>
-    </tr>
-
-    <xsl:for-each select="document/Catalogue/Track">
-    <tr>
-      <td><xsl:value-of select="Format"/></td>
-      <td><xsl:value-of select="Disc"/></td>
-      <td><xsl:value-of select="Artist"/></td>
-      <td><xsl:value-of select="SongTitle"/></td>
-    </tr>
-    </xsl:for-each>
-
-  </table>
-
-</xsl:template>
-
-</xsl:stylesheet>
-
-<document>
-<Catalogue>
-
-'@
-
-$xml += $stylesheet
-
-$xml += $data | ForEach-Object {
+$html += $data | ForEach-Object {
     $ExecutionContext.InvokeCommand.ExpandString($entrytemplate)
 }
 
-$xml += "</Catalogue></document>"
+$html += @'
 
-$xml | Out-File $(Join-Path $FolderPath "index.html")
+    </body>
+</html>
+'@
+
+
+$html | Out-File $(Join-Path $FolderPath "index.html")
