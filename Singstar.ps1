@@ -36,7 +36,7 @@ $html = @'
     <body>
 
     <div class="w3-container">
-        <h2>Songstar Catalogue</h2>
+        <h2>Singstar Catalogue</h2>
         <p>Click one of the tabs below to change sort order.</p>
 
         <div class="w3-bar w3-black">
