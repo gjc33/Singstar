@@ -1,4 +1,16 @@
-﻿$FolderPath = "C:\Users\garyc\Documents\GitHub\Singstar\"
+﻿Function EncodeURL($VLCPath){
+    $VLCPath = $VLCPath -Replace "\\","/"
+    $VLCPath = $VLCPath -Replace " ","%20"
+    $VLCPath = $VLCPath -Replace "\(","%28"
+    $VLCPath = $VLCPath -Replace "\)","%29"
+    $VLCPath = $VLCPath -Replace "\{","%7B"
+    $VLCPath = $VLCPath -Replace "\}","%7D"
+    $VLCPath = $VLCPath -Replace "\[","%5B"
+    $VLCPath = $VLCPath -Replace "\]","%5D"
+    Return $VLCPath
+}
+# ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- 
+$FolderPath = "C:\Users\garyc\Documents\GitHub\Singstar\"
 
 $data = Import-Csv -Path $(Join-Path $Folderpath "Singstar.csv") -Delimiter ","
 $entryTemplate = @'
