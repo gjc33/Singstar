@@ -65,7 +65,7 @@ PCSX2,The Dome (DE),Avril Lavigne,Sk8er Boi
 PS2,Popworld,Avril Lavigne,Sk8er Boi
 PS2,Hottest Hits,Avril Lavigne,When You're Gone
 PCSX2,Rocks! (US),B-52s,Love Shack
-PS2,90s,B-52's,Love Shack
+PS2,90s,B-52s,Love Shack
 PS3,Dance,Backstreet Boys,Everybody (Backstreet's Back)
 PS3,Chartbreaker,Baltimora,Tarzan Boy
 PCSX2,Made In Germany,Bananafishbones & Franka Potente,Easy Day
@@ -144,7 +144,7 @@ PS2,Hottest Hits,Calvin Harris,Acceptable In The 80s
 PS2,Anthems,Candi Staton,Young Hearts Run Free
 PS2,90s,Cardigans,Lovefool
 PS2,Rocks!,Cardigans,My Favourite Game
-PS3,Vol 1,"Cardigans, The",Lovefool
+PS3,Vol 1,Cardigans,Lovefool
 PS2,Singstar,Carl Douglas,Kung Fu Fighting
 PS3,Ultimate Party,Carly Rae Jepsen,Call Me Maybe
 PCSX2,Pop (US),Cartel,Honestly
@@ -180,9 +180,9 @@ PS2,90s,Cranberries,Zombie
 PS2,90s,Crash Test Dummies,Mmm Mmm Mmm Mmm
 PCSX2,80s (US),Culture Club,Do You Really Want to Hurt Me?
 PS2,80s,Culture Club,Karma Chameleon
-PS2,90s,Cure,Friday I'm in Love
-PS2,80s,"Cure, The",Just Like Heaven
-PS3,Vol 2,"Cure, The",Pictures of You
+PS2,90s,The Cure,Friday I'm in Love
+PS2,80s,The Cure,Just Like Heaven
+PS3,Vol 2,The Cure,Pictures of You
 PS2,Rock Ballads,Cutting Crew,(I Just) Died In Your Arms
 PCSX2,Pop (US),Cyndi Lauper,Girls Just Wanna Have Fun
 PS2,Party,Cyndi Lauper,Girls Just Wanna Have Fun
@@ -309,7 +309,7 @@ PCSX2,The Dome (DE),Good Charlotte,I Just Wanna Live
 PS2,Popworld,Good Charlotte,I Just Wanna Live
 PS3,Vol 2,Gorillaz,DARE
 PCSX2,Pop (US),Gorillaz,Feel Good Inc.
-PS3,Vol 1,Gorillaz,"Feel Good, Inc."
+PS3,Vol 1,Gorillaz,Feel Good Inc.
 PS3,Vol 2,Gossip,Standing In The Way Of Control
 PS3,Dance,Gossip,Standing In The Way Of Control
 PCSX2,Amped (DE),Gotthard,Lift U Up
@@ -341,7 +341,7 @@ PS3,Ultimate Party,Icona Pop feat. Charli XCX,I Love It
 PCSX2,Amped (DE),Iggy Pop,Real Wild Child (Wild One)
 PS2,R & B,Inner City,Good Life
 PS3,Back To The 80s,J. Geils Band,Centerfold
-PS3,Dance,Jackson 5,I Want You Back
+PS3,Dance,The Jackson 5,I Want You Back
 PS2,Boy Bands vs Girl Bands,Jade,Don't Walk Away
 PCSX2,The Dome (DE),Jamelia,Stop
 PS2,Popworld,Jamelia,Stop
@@ -365,9 +365,9 @@ PS3,Ultimate Party,John Newman,Love Me Again
 PS2,Rock Ballads,Jon Secada,Just Another Day (Without You)
 PS3,Pop Edition,Jordin Sparks feat. Chris Brown,No Air
 PS3,Chartbreaker,Joshua Kadison,Jessie
-PCSX2,The Dome (DE),Joss Stone,Super Duper Love
+PCSX2,The Dome (DE),Joss Stone,Super Duper Love (Are You Diggin' on Me)
 PS2,Popworld,Joss Stone,Super Duper Love (Are You Diggin' on Me)
-PCSX2,Rocks! (US),Joss Stone,Super Duper Love (Are You Diggin On Me?)
+PCSX2,Rocks! (US),Joss Stone,Super Duper Love (Are You Diggin' on Me)
 PCSX2,Amped (DE),Judas Priest,Breaking The Law
 PCSX2,Amped (DE),Judas Priest,You've Got Another Thing Comin'
 PS3,Vol 1,Junior Senior,Move Your Feet
@@ -386,10 +386,10 @@ PS2,Rocks!,Keane,Everybody's Changing
 PCSX2,The Dome (DE),Keane,Somewhere Only We Know
 PS2,Popworld,Keane,Somewhere Only We Know
 PS3,Dance,Kid Cudi vs Crookers,Day 'n' Nite
-PS3,Pop Edition,Killers,Human
-PS2,Rocks!,Killers,Somebody Told Me
-PS3,Vol 1,"Killers, The",Mr. Brightside
-PS3,Vol 2,"Killers, The",When You Were Young
+PS3,Pop Edition,The Killers,Human
+PS2,Rocks!,The Killers,Somebody Told Me
+PS3,Vol 1,The Killers,Mr. Brightside
+PS3,Vol 2,The Killers,When You Were Young
 PS2,Rocks!,Killing Heidi,I Am
 PS3,Back To The 80s,Kim Carnes,Bette Davis Eyes
 PS2,Anthems,Kim Wilde,Kids in America
@@ -601,8 +601,8 @@ PS3,Vol 2,"Proclaimers , The",I'm Gonna Be (500 Miles)
 PS3,Vol 2,Pulp,Common People
 PS2,Summer Party,Pulp,Disco 2000
 PCSX2,Made In Germany,PUR,Lena
-PS3,Dance,Pussycat Dolls,Don't Cha
-PS3,Vol 1,"Pussycat Dolls, The",Beep
+PS3,Dance,The Pussycat Dolls,Don't Cha
+PS3,Vol 1,The Pussycat Dolls,Beep
 PS3,Queen,Queen,A Kind Of Magic
 PS2,Queen,Queen,Another One Bites The Dust
 PS3,Queen,Queen,Another One Bites The Dust
@@ -652,7 +652,7 @@ PS2,Queen,Queen,Who Wants To Live Forever
 PS3,Queen,Queen,Who Wants To Live Forever
 PS2,Queen,Queen,You're My Best Friend
 PS3,Queen,Queen,You're My Best Friend
-PS2,Queen,Queen feat. David Bowie,Under Pressure
+PS2,Queen,Queen,Under Pressure
 PS2,Rocks!,Queens of the Stone Age,Go With The Flow
 PCSX2,Amped (US),Queens of the Stone Age,Go With The Flow
 PCSX2,Amped (DE),Quiet Riot,Cum On Feel The Noize
@@ -685,7 +685,7 @@ PCSX2,The Dome (DE),Robbie Williams,Let Me Entertain You
 PS2,Popworld,Robbie Williams,Let Me Entertain You
 PCSX2,The Dome (DE),Robbie Williams & Kylie Minogue,Kids
 PS3,Vol 1,Robbie Williams & Nicole Kidman,Something Stupid
-PS2,Popworld,Robbie Williams and Kylie Minogue,Kids
+PS2,Popworld,Robbie Williams & Kylie Minogue,Kids
 PS3,Pop Edition,Robyn,Be Mine
 PS3,Pop Edition,Rockwell,Somebody's Watching Me
 PS2,Rocks!,Rolling Stones,"Paint It, Black"
@@ -699,7 +699,7 @@ PS2,80s,Run-D.M.C.,It's Tricky
 PCSX2,Pop (US),Ryan Cabrera,On The Way Down
 PS2,Singstar,S Club,Don't Stop Movin'
 PS3,Back To The 80s,Sade,Your Love Is King
-PS3,Dance,Salt N Pepa,Push It
+PS3,Dance,Salt'N'Pepa,Push It
 PS2,R & B,Salt'N'Pepa,Push It
 PS3,Pop Edition,Sam Sparro,Black And Gold
 PS2,Hottest Hits,Sam Sparro,Black And Gold
@@ -762,7 +762,7 @@ PS2,90s,Spin Doctors,Two Princes
 PCSX2,80s (US),Squeeze,Tempted
 PS2,Rock Ballads,Starship,Nothing's Gonna Stop Us Now
 PS2,80s,Starship,We Built This City
-PCSX2,The Dome (DE),Steppenwolf,Born to Be Wild
+PCSX2,The Dome (DE),Steppenwolf,Born To Be Wild
 PS2,Popworld,Steppenwolf,Born To Be Wild
 PCSX2,Amped (US),Steppenwolf,Born To Be Wild
 PS2,Anthems,Steps,Deeper Shade of Blue
@@ -834,8 +834,8 @@ PS3,Take That,Take That,Up All Night
 PS2,Take That,Take That,Why Can't I Wake Up With You
 PS3,Take That,Take That,Why Can't I Wake Up With You
 PS2,Anthems,Take That (featuring Lulu),Relight My Fire
-PS2,Take That,Take That feat. Lulu,Relight My Fire
-PS3,Take That,Take That Featuring Lulu,Relight My Fire
+PS2,Take That,Take That (featuring Lulu),Relight My Fire
+PS3,Take That,Take That (featuring Lulu),Relight My Fire
 PS3,Chartbreaker,Talk Talk,Such A Shame
 PCSX2,Amped (US),Talking Heads,Burning Down The House
 PS2,Sing Along With Disney,Tarzan,Son Of Man
@@ -884,7 +884,7 @@ PS3,Beatle Rock Band,The Beatles,Octopus's Garden
 PS3,Beatle Rock Band,The Beatles,Paperback Writer
 PS3,Beatle Rock Band,The Beatles,Revolution
 PS2,Party,The Beautiful South,A Little Time
-PCSX2,The Dome (DE),The Black Eyed Peas,Shut Up
+PCSX2,The Dome (DE),Black Eyed Peas,Shut Up
 PCSX2,The Dome (DE),The Clash,Should I Stay or Should I Go
 PS2,Popworld,The Clash,Should I Stay Or Should I Go
 PS3,Motown,The Commodores,Brick House

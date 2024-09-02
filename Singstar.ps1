@@ -21,7 +21,7 @@ ForEach ($Entry In $Data){
         Disc         = $Entry.Disc
         Artist       = $Entry.Artist
         SongTitle    = $Entry."Song Title"
-        UniqueArtist   = "$($Entry.Artist):$($Entry.'Song Title')"
+        UniqueArtist   = "$($Entry.Artist.ToUpper()):$($Entry.'Song Title'.ToUpper())"
         UniqueSong = "$($Entry.'Song Title'):$($Entry.Artist)"
     }
     $SongList.Add($Song)
